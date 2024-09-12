@@ -14,6 +14,7 @@ import googlePlay from "./Google-Play.png"
 import nextRight from "./next-right.png"
 import nextLeft from "./next-left.png"
 import emailWhite from "./Email icon.png"
+import goggleIcon from "./google icon.png"
 
 
 export {
@@ -32,5 +33,6 @@ export {
     googlePlay,
     nextLeft,
     nextRight,
-    emailWhite
+    emailWhite,
+    goggleIcon
 }

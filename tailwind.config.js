@@ -18,8 +18,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        Lato: ['Lato', 'sans-serif'],
-        Roboto: ['Roboto', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
@@ -28,8 +28,9 @@ export default {
         "gray-gray": "#998D8D",
         "green-green": "#29C90F54",
         "light-green": "#478A4A",
-        "light-purple": "#6476B4"
-
+        "light-purple": "#6476B4",
+        "tomato-red": "#E80A0A",
+        "sky-blue": "#0045D0"
       }
     },
   },

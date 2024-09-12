@@ -19,6 +19,9 @@ import gallery6 from "./lagos-oriental-hotel.png"
 import gallery7 from "./unnamed.png"
 import gallery8 from "./IMG_9403 1.png"
 import gallery9 from "./port beach.png"
+import bigImageFrame from "./Frame 1.png"
+import beach1 from "./Alpha beach.png"
+import beach2 from "./barracuda-beach-resort.png"
 
 
 export {
@@ -42,5 +45,8 @@ export {
     gallery6,
     gallery7,
     gallery8,
-    gallery9
+    gallery9,
+    bigImageFrame,
+    beach1,
+    beach2
 }
