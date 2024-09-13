@@ -20,16 +20,16 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/SpecialOffer" element={<SpecialOffer />} />
           <Route path="/Gallery" element={<Gallery />} />
-          <Route path="/Signup" element={<LoginSignUp />} />
+          <Route path="/login" element={<Login />}/>
           <Route path="About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/login" element={<Login />}/>
+          <Route path="/Signup" element={<LoginSignUp />} />
           <Route path="/Alpha-beach" element={<AlphaBeach />}/>
         </Routes>
         <section className="border-b border-b-black">
           <Newsletters />
         </section>
-        <section className="border-b border-b-black">
+        <section>
           <Footer />
         </section>
       </div>

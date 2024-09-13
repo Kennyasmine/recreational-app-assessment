@@ -1,9 +1,13 @@
+import AboutHero from "../components/AboutHero"
+import AboutSection from "../components/AboutSection"
+import AboutTeams from "../components/AboutTeams"
 
 const About = () => {
   return (
     <div>
-      
-      This is About Page
+      <AboutHero />
+      <AboutSection />
+      <AboutTeams />
     </div>
   )
 }

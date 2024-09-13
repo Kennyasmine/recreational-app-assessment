@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { BgImage } from "../assets/images"
 import { goggleIcon } from "../assets/icons"
+import Buttons from "../components/Buttons"
 
 const LoginSignUp = () => {
   return (
@@ -24,19 +25,23 @@ const LoginSignUp = () => {
           <p className="text-navy-blue leading-[20.4px] font-Lato">Confirm Password</p>
           <input type="password" placeholder="Confirm Password" className="w-full p-2 border border-gray-300 mt-2 mb-2" />
           <Link to="/alpha-beach">
-            <button className="text-white bg-navy-blue px-4 py-2 border-2 font-[24px] w-full 
+            {/* <button className="text-white bg-navy-blue px-4 py-2 border-2 font-[24px] w-full 
             hover:bg-navy-blue font-Lato text-sm md:text-base lg:text-lg">
               Create account
-            </button>
+            </button> */}
+            <Buttons className="text-white bg-navy-blue px-4 py-2 border-2 font-[24px] w-full 
+              hover:bg-navy-blue font-Lato text-sm md:text-base lg:text-lg" label="Create account" />
           </Link>
         </form>
         <div className="text-center my-4 font-Lato leading-[14.4px]">or</div>
         <Link to="/login">
           <div className="relative">
             <img src={goggleIcon} alt="Google Icon" className="absolute bottom-[9px] left-[40px]" />
-            <button className="text-navy-blue bg-white px-4 py-2 border-2 font-[24px] w-full 
+            {/* <button className="text-navy-blue bg-white px-4 py-2 border-2 font-[24px] w-full 
               hover:border-blue-500 focus:ring focus:ring-blue-400 font-Lato text-sm md:text-base lg:text-lg">SignUp with Google
-            </button>
+            </button> */}
+            <Buttons className="text-navy-blue bg-white px-4 py-2 border-2 font-[24px] w-full 
+              hover:border-blue-500 focus:ring focus:ring-blue-400 font-Lato text-sm md:text-base lg:text-lg" label="Sign Up with Google" />
           </div>
         </Link>
       </div>

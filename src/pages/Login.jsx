@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { bigImageFrame } from "../assets/images"
 import { goggleIcon } from "../assets/icons"
+import Buttons from "../components/Buttons"
 
 
 const Login = () => {
@@ -18,13 +19,15 @@ const Login = () => {
           <input type="password" placeholder="mininum of 6 characters" className="w-full p-2 border border-gray-300 mt-2 mb-2" />
           <div className="flex justify-between mb-5">
             <span className="text-navy-blue">Remember me</span>
-            <span className="text-tomato-red">Forget password?</span>
+            <span className="text-tomato-red cursor-pointer">Forget password?</span>
           </div>
           <Link to="/alpha-beach">
-            <button className="text-white bg-navy-blue px-4 py-2 border-2 font-[24px] w-full 
+            {/* <button className="text-white bg-navy-blue px-4 py-2 border-2 font-[24px] w-full 
             hover:bg-navy-blue font-Lato text-sm md:text-base lg:text-lg">
               Log in
-            </button> 
+            </button>  */}
+            <Buttons className="text-white bg-navy-blue px-4 py-2 border-2 font-[24px] w-full 
+              hover:bg-navy-blue font-Lato text-sm md:text-base lg:text-lg" label="Log in"/>
           </Link>
         </form>
         <p className="text-center font-Lato leading-[14.4px] mt-3">
@@ -37,9 +40,11 @@ const Login = () => {
         <Link to="/alpha-beach">
           <div className="relative">
             <img src={goggleIcon} alt="Goggle Icon" className="absolute bottom-[9px] left-[40px]" />
-            <button className="text-navy-blue bg-white px-4 py-2 border-2 font-[24px] w-full 
+            {/* <button className="text-navy-blue bg-white px-4 py-2 border-2 font-[24px] w-full 
                 hover:border-blue-500 focus:ring focus:ring-blue-400 font-Lato text-sm md:text-base lg:text-lg">Login with Google
-            </button>
+            </button> */}
+            <Buttons className="text-navy-blue bg-white px-4 py-2 border-2 font-[24px] w-full 
+                hover:border-blue-500 focus:ring focus:ring-blue-400 font-Lato text-sm md:text-base lg:text-lg" label="Login with Google"/>
           </div>
         </Link>
       </div>

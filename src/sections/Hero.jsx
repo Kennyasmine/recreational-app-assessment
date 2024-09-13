@@ -13,7 +13,7 @@ const Hero = () => {
         <p className="text-base md:text-lg mb-8">Why not check out popular recreation centers near you</p>
         <div className="flex items-center justify-center gap-4 w-full max-w-xs sm:max-w-sm mx-auto">
           <Select />
-          <Buttons label="Find" />
+          <Buttons label="Find" className="px-4 py-2 bg-white text-navy-blue rounded hover:bg-navy-blue hover:text-white" />
         </div>
       </div>
     </section>

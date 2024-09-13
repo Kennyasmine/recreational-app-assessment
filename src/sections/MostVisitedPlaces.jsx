@@ -9,12 +9,14 @@ const MostVisitedPlaces = () => {
           <div key={place.title} className="relative bg-white shadow-lg rounded 
             overflow-hidden max-w-xs w-full sm:max-w-sm flex flex-col items-center mx-auto">
             <div className="relative">
-              <img src={place.image} alt={place.title} className="w-full h-48 object-cover" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <h3 className="text-xl font-semibold text-white">{place.title}</h3>
+              <div className="relative w-full">
+                <img src={place.image} alt={place.title} className="w-full h-48 object-cover" />
+                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                  <h3 className="text-xl font-semibold text-white">{place.title}</h3>
+                </div>
               </div>
               <div className="p-4">
-                <p className="text-slate-gray">{place.description}</p>
+                <p className="text-navy-blue">{place.description}</p>
               </div>
             </div>
           </div>

@@ -1,11 +1,11 @@
 import { facebook, instagram, twitter } from "../assets/icons";
-import { gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, nikeArt, zumaRock } from "../assets/images";
+import { agodi, dunes, gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, nikeArt, peacePark, redEye, shopRite, team1, team2, whisperingPalm, zumaRock } from "../assets/images";
 
 export const navLinks = [
     { href: "/", label: "Home" },
     { href: "specialoffer", label: "Special Offer" },
     { href: "gallery", label: "Gallery" },
-    { href: "signup", label: "Login" },
+    { href: "login", label: "Login" },
     { href: "about", label: "About" },
     { href: "contact", label: "Contact" },
 ];
@@ -53,32 +53,32 @@ export const places = [
     {
       title: 'Whispering Palms, Lagos',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quam.',
-      image: nikeArt,
+      image: whisperingPalm,
     },
     {
       title: 'ShopRite, Abuja',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quam.',
-      image: nikeArt,
+      image: shopRite,
     },
     {
       title: 'Peace Park, Port Harcourt',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quam.',
-      image: nikeArt,
+      image: peacePark,
     },
     {
       title: 'Agodi Gardens, Ibadan',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quam.',
-      image: nikeArt,
+      image: agodi,
     },
     {
       title: 'Omu Resort, Lagos',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quam.',
-      image: nikeArt,
+      image: redEye,
     },
     {
       title: 'Dunes Express Cafe, Abuja',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quam.',
-      image: nikeArt,
+      image: dunes,
     },
 ];
 
@@ -104,4 +104,32 @@ export const galleries = [
     gallery7,
     gallery8,
     gallery9
+]
+
+export const teams = [
+    {
+        image: team2,
+        value: "xxxxxx",
+        position: "CEO",
+    },
+    {
+        image: team1,
+        value: "xxxxxx",
+        position: "DESIGN TEAM LEAD",
+    },
+    {
+        image: team2,
+        value: "xxxxxx",
+        position: "TEAM LEAD",
+    },
+    {
+        image: team2,
+        value: "xxxxxx",
+        position: "BUSINESS DEVELOPMENT HEAD",
+    },
+    {
+        image: team2,
+        value: "xxxxxx",
+        position: "HEAD OF STRATEGY",
+    }
 ]

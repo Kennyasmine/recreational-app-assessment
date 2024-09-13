@@ -22,6 +22,15 @@ import gallery9 from "./port beach.png"
 import bigImageFrame from "./Frame 1.png"
 import beach1 from "./Alpha beach.png"
 import beach2 from "./barracuda-beach-resort.png"
+import about from "./About us image.png"
+import team1 from "./Ellipse 5.png"
+import team2 from "./Ellipse 9.png"
+import whisperingPalm from "./whispering palms.png"
+import peacePark from "./Peace Park.png"
+import redEye from "./red eye.png"
+import shopRite from "./ShopRite.png"
+import dunes from "./Dunes Resort.png"
+import agodi from "./Agodi Garden.png"
 
 
 export {
@@ -48,5 +57,14 @@ export {
     gallery9,
     bigImageFrame,
     beach1,
-    beach2
+    beach2,
+    about,
+    team1,
+    team2,
+    shopRite,
+    agodi,
+    whisperingPalm,
+    dunes,
+    peacePark,
+    redEye
 }

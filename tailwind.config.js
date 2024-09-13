@@ -30,7 +30,8 @@ export default {
         "light-green": "#478A4A",
         "light-purple": "#6476B4",
         "tomato-red": "#E80A0A",
-        "sky-blue": "#0045D0"
+        "sky-blue": "#0045D0",
+        "more-pink": "#D9B8B8"
       }
     },
   },

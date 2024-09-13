@@ -15,6 +15,8 @@ import nextRight from "./next-right.png"
 import nextLeft from "./next-left.png"
 import emailWhite from "./Email icon.png"
 import goggleIcon from "./google icon.png"
+import arrow2 from "./arrows 2.png"
+import vector from "./Vector.png"
 
 
 export {
@@ -34,5 +36,7 @@ export {
     nextLeft,
     nextRight,
     emailWhite,
-    goggleIcon
+    goggleIcon,
+    arrow2,
+    vector
 }
