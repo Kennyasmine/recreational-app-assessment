@@ -26,8 +26,12 @@ const App = () => {
           <Route path="/Signup" element={<LoginSignUp />} />
           <Route path="/Alpha-beach" element={<AlphaBeach />}/>
         </Routes>
-        <Newsletters />
-        <Footer />
+        <section className="border-b border-b-black">
+          <Newsletters />
+        </section>
+        <section>
+          <Footer />
+        </section>
       </div>
     </>
   )

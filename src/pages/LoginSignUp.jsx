@@ -5,11 +5,11 @@ import Buttons from "../components/Buttons"
 
 const LoginSignUp = () => {
   return (
-    <section className="relative bg-cover bg-center h-[850px] t-[86px] mt-28 overflow-hidden flex items-center justify-center" 
+    <section className="relative bg-cover bg-center h-[850px] t-[86px] overflow-hidden flex items-center justify-center" 
     style={{ backgroundImage: `url(${BgImage})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-      <div className="p-8 bg-white max-w-sm z-10">
+      <div className="p-8 bg-white max-w-sm z-10 mt-[70px] md:mt-24">
         <h2 className="text-navy-blue text-center font-Lato leading-[31.2px] font-bold mb-9">Create your account</h2>
         <form action="">
           <p className="text-navy-blue leading-[20.4px] font-Lato">First Name</p>

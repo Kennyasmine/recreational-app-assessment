@@ -6,12 +6,12 @@ import Buttons from "../components/Buttons"
 
 const Login = () => {
   return (
-    <section className="relative bg-cover bg-center h-[520px] t-[86px] mt-28 overflow-hidden flex items-center justify-center" 
+    <section className="relative bg-cover bg-center h-[600px] t-[86px] overflow-hidden flex items-center justify-center" 
     style={{ backgroundImage: `url(${bigImageFrame})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-      <div className="p-8 bg-white max-w-sm w-[80%] z-10">
-        <h2 className="text-navy-blue text-center font-Lato leading-[31.2px] font-bold mb-10">Welcome Back</h2>
+      <div className="p-8 bg-white max-w-sm w-[80%] z-10 mt-[70px] md:mt-24">
+        <h2 className="text-navy-blue text-center font-Lato leading-[31.2px] font-bold">Welcome Back</h2>
         <form action="">
           <p className="text-navy-blue leading-[20.4px] font-Lato">Email Address</p>
           <input type="email" placeholder="paul@example.com" className="w-full p-2 border border-gray-300 mt-2 mb-2" />

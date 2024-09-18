@@ -1,4 +1,4 @@
-import { facebook, instagram, twitter } from "../assets/icons";
+import { emailIcon, facebook, instagram, linkIcon, location, phone, twitter } from "../assets/icons";
 import { agodi, dunes, gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, nikeArt, peacePark, redEye, shopRite, team1, team2, whisperingPalm, zumaRock } from "../assets/images";
 
 export const navLinks = [
@@ -132,4 +132,23 @@ export const teams = [
         value: "xxxxxx",
         position: "HEAD OF STRATEGY",
     }
+]
+
+export const contacts = [
+    {
+        icon: location,
+        text: "9, marina road, Victoria Island Lagos, Nigeria.",
+    },
+    {
+        icon: phone,
+        text: "+234 813 554 0992",
+    },
+    {
+        icon: emailIcon,
+        text: "info@recreationalapp.com",
+    },
+    {
+        icon: linkIcon,
+        text: "www.recreationalapp.com",
+    },
 ]

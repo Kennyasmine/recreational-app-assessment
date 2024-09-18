@@ -1,4 +1,5 @@
 import ContactHero from "../components/ContactHero"
+import ContactInfo from "../components/ContactInfo"
 import ContactSection from "../components/ContactSection"
 
 const Contact = () => {
@@ -6,6 +7,7 @@ const Contact = () => {
     <div>
       <ContactHero />
       <ContactSection />
+      <ContactInfo />
     </div>
   )
 }
