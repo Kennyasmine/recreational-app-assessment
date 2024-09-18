@@ -3,7 +3,7 @@ import customer1 from "./Ellipse 3.png"
 import bigImage1 from "./Image 1.png"
 import bigImage2 from "./Image 2.png"
 import bigImage3 from "./Image 3.png"
-import rectangle101 from "./Rectangle 101.png"
+import contactImage from "./Rectangle 100.png"
 import rectangle20 from "./Rectangle 20.png"
 import nikeArt from "./Nike art gallery.png"
 import zumaRock from "./Zuma rock.png"
@@ -39,7 +39,7 @@ export {
     bigImage1,
     bigImage2,
     bigImage3,
-    rectangle101,
+    contactImage,
     rectangle20,
     nikeArt,
     zumaRock,

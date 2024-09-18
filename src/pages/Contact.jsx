@@ -1,9 +1,11 @@
+import ContactHero from "../components/ContactHero"
+import ContactSection from "../components/ContactSection"
 
 const Contact = () => {
   return (
     <div>
-      
-      This is Contact Page
+      <ContactHero />
+      <ContactSection />
     </div>
   )
 }

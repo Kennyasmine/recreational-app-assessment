@@ -42,9 +42,9 @@ export const socialMedia = [
     {
         title: "Social Media",
         links: [
-            { src: twitter, alt: "facebook logo" },
-            { src: facebook, alt: "twitter logo" },
-            { src: instagram, alt: "instagram logo" },
+            { src: twitter, alt: "twitter logo", href: "https://twitter.com" },
+            { src: facebook, alt: "facebook logo", href: "https://facebook.com"  },
+            { src: instagram, alt: "instagram logo", href: "https://instagram.com" },
         ]
     }
 ];

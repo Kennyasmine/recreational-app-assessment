@@ -3,8 +3,9 @@ import { appStore, googlePlay } from "../assets/icons"
 import { footerLinks, socialMedia } from "../constants"
 
 const Footer = () => {
+  
   return (
-    <footer className="bg-navy-blue text-white py-10 px-4">
+    <footer className="bg-navy-blue text-white py-10 px-4 shadow-2xl">
       <div className="max-w-3xl mx-auto">
         <div>
           <h3 className="text-2xl mb-2 font-semibold text-center">Download the app</h3>
@@ -25,7 +26,10 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li key={link.name} className="hover:text-slate-gray cursor-pointer text-base leading-[50px]">
-                    <Link>
+                    <Link to={link.link}
+                      onClick={() => {
+                        window.scrollTo(0, 0);
+                      }}>
                       {link.name}
                     </Link>
                   </li>
@@ -34,19 +38,21 @@ const Footer = () => {
             </div>
           ))}
           {socialMedia.map((icon) => (
-                  <div key={icon.src} className="min-w-[150px]">
-                    <h4 className='text-2xl leading-normal font-medium mb-10 mt-5'>{icon.title}</h4>
-                    <ul>
-                      {icon.links.map((img) => (
-                        <Link key={img.src}>
-                          <img src={img.src} alt={img.alt} className="h-6 mt-7 bg-light-purple rounded-full p-1 ml-10
-                            cursor-pointer hover:bg-slate-gray"/>
-                        </Link>
-                      ))}
-                    </ul>
-                  </div>
+            <div key={icon.src} className="min-w-[150px]">
+              <h4 className='text-2xl leading-normal font-medium mb-10 mt-5'>{icon.title}</h4>
+              <ul>
+                {icon.links.map((img) => (
+                  <Link to={img.href} key={img.src}>
+                    <img src={img.src} alt={img.alt} className="h-6 mt-7 bg-light-purple rounded-full p-1 ml-10
+                      cursor-pointer hover:bg-slate-gray"/>
+                  </Link>
                 ))}
+              </ul>
+            </div>
+          ))}
         </div>
+
+        {/* <hr className="-mx-4 my-5 border-t border-slate-200" /> */}
 
         <div>
           <p className="text-center mt-5">Copyright © 2020</p>

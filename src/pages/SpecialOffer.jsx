@@ -4,7 +4,7 @@ import Buttons from "../components/Buttons"
 
 const SpecialOffer = () => {
   return (
-    <section className="py-16 px-4 max-w-5xl mx-auto">
+    <section className="py-16 px-4 max-w-5xl mx-auto mt-28">
       <h2 className="text-3xl font-bold text-center mb-10 text-navy-blue">Special Offer</h2>
       <div className="p-6 bg-white shadow-2xl rounded-lg">
         <h2 className="text-navy-blue font-Lato leading-[28.8px] font-bold mb-5">Zuma Resort</h2>

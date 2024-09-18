@@ -11,9 +11,12 @@ const Hero = () => {
       <div className="relative flex flex-col items-center justify-center h-full text-white text-center">
         <h1 className="text-2xl md:text-4xl font-bold mb-4 font-Lato">Wanna have fun?</h1>
         <p className="text-base md:text-lg mb-8">Why not check out popular recreation centers near you</p>
-        <div className="flex items-center justify-center gap-4 w-full max-w-xs sm:max-w-sm mx-auto">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-9 w-full max-w-xs sm:max-w-sm mx-auto">
           <Select />
-          <Buttons label="Find" className="px-4 py-2 bg-white text-navy-blue rounded hover:bg-navy-blue hover:text-white" />
+          <Buttons 
+            label="find" 
+            className="px-4 py-2 bg-white font-semibold text-navy-blue rounded hover:bg-navy-blue
+            hover:text-white w-[130px]" />
         </div>
       </div>
     </section>

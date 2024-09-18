@@ -6,7 +6,7 @@ import Buttons from "../components/Buttons"
 
 const Login = () => {
   return (
-    <section className="relative bg-cover bg-center h-[520px] t-[86px] overflow-hidden flex items-center justify-center" 
+    <section className="relative bg-cover bg-center h-[520px] t-[86px] mt-28 overflow-hidden flex items-center justify-center" 
     style={{ backgroundImage: `url(${bigImageFrame})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -21,28 +21,33 @@ const Login = () => {
             <span className="text-navy-blue">Remember me</span>
             <span className="text-tomato-red cursor-pointer">Forget password?</span>
           </div>
-          <Link to="/alpha-beach">
-            {/* <button className="text-white bg-navy-blue px-4 py-2 border-2 font-[24px] w-full 
-            hover:bg-navy-blue font-Lato text-sm md:text-base lg:text-lg">
-              Log in
-            </button>  */}
+          <Link to="/alpha-beach"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
             <Buttons className="text-white bg-navy-blue px-4 py-2 border-2 font-[24px] w-full 
               hover:bg-navy-blue font-Lato text-sm md:text-base lg:text-lg" label="Log in"/>
           </Link>
         </form>
         <p className="text-center font-Lato leading-[14.4px] mt-3">
           Don`t have an account!
-          <Link to="/signup">
+          <Link to="/signup"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
             <span className="text-blue-400"> Sign Up?</span>
           </Link>
         </p>
         <div className="text-center my-4 font-Lato leading-[14.4px]">or</div>
-        <Link to="/alpha-beach">
+        <Link to="/alpha-beach"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
           <div className="relative">
             <img src={goggleIcon} alt="Goggle Icon" className="absolute bottom-[9px] left-[40px]" />
-            {/* <button className="text-navy-blue bg-white px-4 py-2 border-2 font-[24px] w-full 
-                hover:border-blue-500 focus:ring focus:ring-blue-400 font-Lato text-sm md:text-base lg:text-lg">Login with Google
-            </button> */}
             <Buttons className="text-navy-blue bg-white px-4 py-2 border-2 font-[24px] w-full 
                 hover:border-blue-500 focus:ring focus:ring-blue-400 font-Lato text-sm md:text-base lg:text-lg" label="Login with Google"/>
           </div>
